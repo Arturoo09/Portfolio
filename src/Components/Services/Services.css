@@ -1,0 +1,59 @@
+.services {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 79vh;
+  margin-bottom: 8rem;
+  margin-top: 20rem;
+  margin-bottom: 13rem;
+}
+
+.increible {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.increible > :nth-child(1) {
+  color: var(--black);
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.increible > :nth-child(2) {
+  color: var(--blue);
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.increible > :nth-child(3) {
+  color: var(--black);
+  font-weight: 100;
+  font-size: 24px;
+}
+
+.s-button {
+  margin-top: 1rem;
+  width: 10rem;
+  height: 3rem;
+}
+
+.cards {
+  position: relative;
+}
+
+.cards > * {
+  position: absolute;
+}
+.blur2 {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  filter: blur(212px);
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+  filter: blur(100px);
+}

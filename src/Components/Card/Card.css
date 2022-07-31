@@ -1,0 +1,27 @@
+.card {
+  width: 10rem;
+  height: 13rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  width: 10rem;
+  text-align: center;
+  background: rgba(244, 244, 244, 1);
+  border: 5px solid var(--blue);
+  box-shadow: var(--boxShadow);
+  border-radius: 30px;
+  padding: 0px 26px 2rem 26px;
+}
+
+.card span:nth-of-type(1) {
+  color: var(--black);
+  font-size: 26px;
+  margin-top: 1rem;
+}
+
+.card span:nth-of-type(2) {
+  color: var(--gray);
+  font-size: 16px;
+}
