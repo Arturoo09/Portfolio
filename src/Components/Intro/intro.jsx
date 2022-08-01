@@ -20,7 +20,7 @@ const Intro = () => {
         <span style={{color: darkMode ? 'white' : ''}}>¡Hola! Soy</span>
         <span>Arturo Largo García</span>
         <span style={{color: darkMode ? 'white' : ''}}>
-          Estudiante en Ingeniería Informática en la UCAM.
+          Estudiante de Ingeniería Informática en la UCAM.
         </span>
         <span style={{color: darkMode ? 'white' : ''}}>
             Me especializo en el analisis de datos, pero también se algo de
