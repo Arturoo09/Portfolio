@@ -19,8 +19,11 @@ const Intro = () => {
       <div className="i-name">
         <span style={{color: darkMode ? 'white' : ''}}>¡Hola! Soy</span>
         <span>Arturo Largo García</span>
-        <span style={{color: darkMode ? 'white' : ''}}>Un chaval universitario con ganas de empezar en este mundillo,
-            me especializo en el analisis de datos, pero también se algo de
+        <span style={{color: darkMode ? 'white' : ''}}>
+          Estudiante en Ingeniería Informática en la UCAM.
+        </span>
+        <span style={{color: darkMode ? 'white' : ''}}>
+            Me especializo en el analisis de datos, pero también se algo de
             Desarrollo de Frontend, así como de Backend. Entusiasta y
             trabajo de calidad.
         </span>

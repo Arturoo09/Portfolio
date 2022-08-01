@@ -35,6 +35,11 @@
   font-weight: 100;
   font-size: 24px;
 }
+.i-name > :nth-child(4) {
+  color: var(--black);
+  font-weight: 85;
+  font-size: 20px;
+}
 
 .i-button {
   width: 9rem;
