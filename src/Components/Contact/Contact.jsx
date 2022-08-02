@@ -22,7 +22,7 @@ const Contact = () => {
 
     };
     return (
-        <div className="contact" id="contact">
+        <div className="contact" id="Contacto">
             <div className="c-left">
                 <span style={{color: darkMode ? 'white': ''}}>Contact me</span>
             </div>

@@ -6,6 +6,7 @@ import twitter from '../../img/twitter.png'
 import dog from '../../img/dog.png'
 import { themeContext } from "../../Context";
 import { useContext } from "react";
+import { Link } from 'react-scroll'
 // import { motion } from 'framer-motion';
 
 const Intro = () => {
@@ -29,7 +30,10 @@ const Intro = () => {
         </span>
       </div>
 
-      <button className="button i-button">Contrátame</button>
+      <Link spy={true} to='Contacto' smooth={true}>
+        <button className="button i-button">Contrátame</button>      
+      </Link>
+
       <div className="i-icons">
         <a href="https://www.instagram.com/alggarcia_96/" className="insta" target="__black">
           <img src={insta} alt=""/>
