@@ -36,3 +36,6 @@
   font-size: 5rem;
   font-weight: bold;
 }
+textarea {
+  height: 4rem !important;
+}
