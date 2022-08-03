@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
 .n-wrapper {
   height: 10vh;
   display: flex;
@@ -15,8 +17,27 @@
 }
 
 .n-name {
-  font-size: 2rem;
-  font-weight: bold;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+  font-size: 40px;
+}
+
+.n-name span {
+  font-family: "Alfa Slab One";
+  display: inline-block;
+  color: black;
+  animation: wave-anim 3s infinite;
+  animation-delay: calc(0.1s * var(--item));
+}
+
+@keyframes wave-anim {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-10px);
+  }
 }
 
 .n-right {
