@@ -23,9 +23,12 @@ const Contact = () => {
     };
     return (
         <div className="contact" id="Contacto">
-            <div className="c-left">
-                <span style={{color: darkMode ? 'white': ''}}>Contact me</span>
-            </div>
+            <section>
+                <div class='c-left'>
+                    <h2 style={{color: darkMode ? 'white' : ''}}>Contáctame</h2>
+                    <h2>Contáctame</h2>
+                </div>
+            </section>
             <div className="c-right">
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name='user_name' className='user' placeholder='Name'/>
