@@ -46,6 +46,9 @@
   align-items: center;
   justify-content: flex-end;
   font-weight: 600;
+  position: fixed;
+  left: 65rem;
+  top: 2rem;
 }
 
 .n-list {

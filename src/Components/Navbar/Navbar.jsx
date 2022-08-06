@@ -9,7 +9,7 @@ const Navbar = () => {
   const darkMode = theme.state.darkMode;
   return (
     <div className="n-wrapper">
-        <div className="n-left">
+        <div className="n-left" id="Intro">
             <div className="n-name">
                 <span style={{color: darkMode ? 'white' : ''}}>A</span>
                 <span style={{color: darkMode ? 'white' : ''}}>R</span>
@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="n-right">
             <div className="n-list">
                 <ul style={{listStyleType: 'none'}}>
-                    <Link spy={true} to='Navbar' smooth={true} activeClass="activeClass">
+                    <Link spy={true} to='Intro' smooth={true}>
                         <li>Inicio</li>
                     </Link>
                     <Link spy={true} to='Servicios' smooth={true}>
