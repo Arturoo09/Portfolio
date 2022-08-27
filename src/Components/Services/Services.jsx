@@ -20,7 +20,7 @@ const Services = () => {
                 <br />
                 <br />
             </spane>
-            <a href={cv}>
+            <a href={cv} download>
                 <button className='button s-button'>Descarga CV</button>
             </a>
         </div>
